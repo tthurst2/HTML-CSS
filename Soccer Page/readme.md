@@ -1,0 +1,1 @@
+Soccer Page shows examples of text, font, color, spacing etc. 
