@@ -1,0 +1,1 @@
+Hotel webpage that contains informatoin on Box styling(border-width, style, color, radius,).
