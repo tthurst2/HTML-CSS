@@ -1,0 +1,1 @@
+Memory web page that shows the box-sizing dimensional property and the border-box model.(affecting total width vs fixed)
