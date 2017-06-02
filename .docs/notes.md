@@ -1,0 +1,1 @@
+sqlplus u12ftt05/abc123@ic12fdc
