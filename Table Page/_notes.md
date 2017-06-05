@@ -11,4 +11,3 @@
 11.) All the CSS properties you learned about in this course can be applied to tables and their data.
 Congratulations on completing the HTML & CSS course! This course is meant to give you exposure to the fundamentals of HTML & CSS. In later HTML & CSS courses, you'll explore more advanced topics, like HTML5, special CSS selectors and positioning, responsive design, and much more.
 
-We hope you enjoyed the course!
