@@ -16,17 +16,19 @@
         var xhr = new XMLHttpRequest();
         //OPEN - type, url/file, async
         //console.log(xhr);
-        xhr.open('POST', 'sample.txt', true);
+        xhr.open('POST', 'http://tylerthurston.me/Text/sample.txt', true);
         
         xhr.onload = function() {
             //Check for Okay status
             if(this.status == 200) {
-
+                console.log(this.responseText);
             }
             // HTTP Statuses
             // 200: "OK"
             // 403: "Forbidden"
             // 404: "Not Found"
         }
+        // Sends request
+        xhr.send();
     }
     </script>
