@@ -10,6 +10,7 @@ td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    width: 50%;
 }
 
 tbody tr:nth-child(odd) {
@@ -26,7 +27,7 @@ tbody tr:nth-child(odd) {
     <th>Managers to replace</th>
     <th>Count of Subordinates</th>    
 </tr>
-<p><!Subordinate_Count></p>
+<p><!b1_sub_notNull></p>
 </table>
 
 <h1><font color="#2200ad">Empty Managers with no subordinates!</font></h1>
@@ -34,17 +35,9 @@ tbody tr:nth-child(odd) {
 <tr bgcolor="#dddddd">
     <th>Managers to deactivate</th>    
 </tr>
-<p><!EmptySubordinate></p>
+<p><!b1_emptySub_notNull></p>
 </table>
 <hr><hr>
-<h1><font color="#cc33ff">Termed Managers with active subordinates and active boss!</font></h1>
-<table>
-<tr bgcolor="#dddddd">
-    <th>Managers to replace</th>
-    <th>Managers boss who will replace</th>   
-</tr>
-<p><!b2_activeBoss></p>
-</table>
 
 <h1><font color="#ff9933">Termed managers with active subordinates and termed boss!</font></h1>
 <table>
@@ -52,7 +45,17 @@ tbody tr:nth-child(odd) {
     <th>Managers to deactivate</th>
     <th>Termed Boss</th>    
 </tr>
-<p><!b2_termedBoss></p>
+<p><!b2_termedBoss_notNull></p>
+</table>
+
+<h1><font color="#cc33ff">Termed Managers with active subordinates and active boss!</font></h1>
+<table>
+<tr bgcolor="#dddddd">
+    <th>Managers to replace</th>
+    <th>Managers boss who will replace</th>   
+</tr>
+<p><!b2_activeBoss_notNull></p>
+<p></p>
 </table>
 
 <h1><font color="#cc3399">Termed Managers with no subordinates!</font></h1>
@@ -60,9 +63,11 @@ tbody tr:nth-child(odd) {
 <tr bgcolor="#dddddd">
     <th>Managers to deactivate</th>    
 </tr>
-<p><!b2_emptySub></p>
+<p><!b2_emptySub_notNull></p>
 </table>
 
+<hr>
+WorkUnit: <!WorkUnit>
 <hr>
 </body>
 </html>
