@@ -22,6 +22,7 @@ td, th {
 <table>
 <tr bgcolor="#dddddd">
     <th>Supervisors to replace</th>
+    <th>Description</th>
     <th>Count of Subordinates</th>    
 </tr>
 <p><!b1_sub_notNull></p>
@@ -30,17 +31,20 @@ td, th {
 <h2><font color="#2200ad">Empty Supervisors with no subordinates</font></h2>
 <table>
 <tr bgcolor="#dddddd">
-    <th>Supervisors to deactivate</th>    
+    <th>Deactivated Supervisors</th>
+    <th>Description</th>    
 </tr>
 <p><!b1_emptySub_notNull></p>
 </table>
+<br>
 <hr><hr>
 
 <h2><font color="#ff9933">Termed Supervisors with active subordinates and termed boss</font></h2>
 <table>
 <tr bgcolor="#dddddd">
     <th>Supervisors to deactivate</th>
-    <th>Termed Boss</th>    
+    <th>Description</th>
+    <th>Termed Supervisor's Boss</th>    
 </tr>
 <p><!b2_termedBoss_notNull></p>
 </table>
@@ -48,8 +52,9 @@ td, th {
 <h2><font color="#cc33ff">Termed Supervisors with active subordinates and active boss</font></h2>
 <table>
 <tr bgcolor="#dddddd">
-    <th>Supervisors to replace</th>
-    <th>Supervisors boss who will replace</th>   
+    <th>Replaced Supervisors</th>
+    <th>Description</th>
+    <th>Replaced with Supervisor's boss</th>   
 </tr>
 <p><!b2_activeBoss_notNull></p>
 <p></p>
@@ -58,13 +63,17 @@ td, th {
 <h2><font color="#cc3399">Termed Supervisors with no subordinates</font></h2>
 <table>
 <tr bgcolor="#dddddd">
-    <th>Supervisors to deactivate</th>    
+    <th>Deactivated Supervisors</th>
+    <th>Description</th>    
 </tr>
 <p><!b2_emptySub_notNull></p>
 </table>
 
 <hr>
 WorkUnit: <!WorkUnit>
+<br>
+Environment: <!ENVDIR>
+
 <hr>
 </body>
 </html>
